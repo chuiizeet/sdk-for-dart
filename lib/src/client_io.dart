@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:cookie_jar/cookie_jar.dart';
 import 'package:device_info_plus/device_info_plus.dart';
-import 'package:flutter_web_auth_2/flutter_web_auth_2.dart';
+import 'package:flutter_web_auth/flutter_web_auth.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/io_client.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -206,7 +206,7 @@ class ClientIO extends ClientBase with ClientMixin {
 
   @override
   Future webAuth(Uri url) {
-    return FlutterWebAuth2.authenticate(
+    return FlutterWebAuth.authenticate(
       url: url.toString(),
       callbackUrlScheme: "appwrite-callback-" + config['project']!,
     ).then((value) async {

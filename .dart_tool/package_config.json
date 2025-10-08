@@ -27,7 +27,7 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/collection-1.17.2",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/collection-1.18.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -75,9 +75,9 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/0xchuy/flutter/packages/flutter",
+      "rootUri": "file:///Users/0xchuy/fvm/versions/3.22.2/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_lints",
@@ -87,27 +87,21 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/0xchuy/flutter/packages/flutter_test",
+      "rootUri": "file:///Users/0xchuy/fvm/versions/3.22.2/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
-      "name": "flutter_web_auth_2",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/flutter_web_auth_2-3.1.2",
+      "name": "flutter_web_auth",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/flutter_web_auth-0.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
-    },
-    {
-      "name": "flutter_web_auth_2_platform_interface",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/flutter_web_auth_2_platform_interface-3.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "2.17"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///Users/0xchuy/flutter/packages/flutter_web_plugins",
+      "rootUri": "file:///Users/0xchuy/fvm/versions/3.22.2/packages/flutter_web_plugins",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "http",
@@ -122,6 +116,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "leak_tracker",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/leak_tracker-10.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/lints-3.0.0",
       "packageUri": "lib/",
@@ -129,19 +141,19 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/matcher-0.12.16",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/material_color_utilities-0.8.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/meta-1.9.1",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/meta-1.12.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -159,9 +171,9 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "path_provider",
@@ -213,9 +225,9 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/0xchuy/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/0xchuy/fvm/versions/3.22.2/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "source_span",
@@ -225,15 +237,15 @@
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/stack_trace-1.11.0",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/stream_channel-2.1.1",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/stream_channel-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.19"
     },
     {
       "name": "string_scanner",
@@ -249,9 +261,9 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/test_api-0.6.0",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/test_api-0.7.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "typed_data",
@@ -260,64 +272,16 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "url_launcher",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/url_launcher-6.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "url_launcher_android",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "url_launcher_ios",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/url_launcher_ios-6.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "url_launcher_linux",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/url_launcher_linux-3.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
-      "name": "url_launcher_macos",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/url_launcher_macos-3.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "url_launcher_platform_interface",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/url_launcher_platform_interface-2.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "url_launcher_web",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/url_launcher_web-2.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
-      "name": "url_launcher_windows",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "vector_math",
       "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
-      "name": "web",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/web-0.1.4-beta",
+      "name": "vm_service",
+      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/vm_service-14.2.1",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.3"
     },
     {
       "name": "web_socket_channel",
@@ -338,12 +302,6 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "window_to_front",
-      "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/window_to_front-0.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "xdg_directories",
       "rootUri": "file:///Users/0xchuy/.pub-cache/hosted/pub.dev/xdg_directories-1.0.4",
       "packageUri": "lib/",
@@ -356,7 +314,10 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2025-10-08T01:18:50.398969Z",
+  "generated": "2025-10-08T23:00:47.311216Z",
   "generator": "pub",
-  "generatorVersion": "3.1.3"
+  "generatorVersion": "3.4.3",
+  "flutterRoot": "file:///Users/0xchuy/fvm/versions/3.22.2",
+  "flutterVersion": "3.22.2",
+  "pubCache": "file:///Users/0xchuy/.pub-cache"
 }
