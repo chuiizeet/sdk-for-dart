@@ -1,11 +1,11 @@
 import 'dart:io';
 import 'package:cookie_jar/cookie_jar.dart';
 import 'package:device_info_plus/device_info_plus.dart';
+import 'package:flutter_web_auth_2/flutter_web_auth_2.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/io_client.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:flutter_web_auth/flutter_web_auth.dart';
 import 'client_mixin.dart';
 import 'client_base.dart';
 import 'cookie_manager.dart';
@@ -56,7 +56,7 @@ class ClientIO extends ClientBase with ClientMixin {
     _headers = {
       'content-type': 'application/json',
       'x-sdk-version': 'appwrite:flutter:5.0.0',
-      'X-Appwrite-Response-Format' : '0.14.0',
+      'X-Appwrite-Response-Format': '0.14.0',
     };
 
     config = {};
@@ -77,26 +77,28 @@ class ClientIO extends ClientBase with ClientMixin {
     return dir;
   }
 
-     /// Your project ID
-    @override
-    ClientIO setProject(value) {
-        config['project'] = value;
-        addHeader('X-Appwrite-Project', value);
-        return this;
-    }
-     /// Your secret JSON Web Token
-    @override
-    ClientIO setJWT(value) {
-        config['jWT'] = value;
-        addHeader('X-Appwrite-JWT', value);
-        return this;
-    }
-    @override
-    ClientIO setLocale(value) {
-        config['locale'] = value;
-        addHeader('X-Appwrite-Locale', value);
-        return this;
-    }
+  /// Your project ID
+  @override
+  ClientIO setProject(value) {
+    config['project'] = value;
+    addHeader('X-Appwrite-Project', value);
+    return this;
+  }
+
+  /// Your secret JSON Web Token
+  @override
+  ClientIO setJWT(value) {
+    config['jWT'] = value;
+    addHeader('X-Appwrite-JWT', value);
+    return this;
+  }
+
+  @override
+  ClientIO setLocale(value) {
+    config['locale'] = value;
+    addHeader('X-Appwrite-Locale', value);
+    return this;
+  }
 
   @override
   ClientIO setSelfSigned({bool status = true}) {
@@ -167,8 +169,8 @@ class ClientIO extends ClientBase with ClientMixin {
       debugPrint('Error getting device info: $e');
       device = Platform.operatingSystem;
     }
-    addHeader(
-        'user-agent', '${packageInfo.packageName}/${packageInfo.version} $device');
+    addHeader('user-agent',
+        '${packageInfo.packageName}/${packageInfo.version} $device');
 
     _initialized = true;
   }
@@ -204,7 +206,7 @@ class ClientIO extends ClientBase with ClientMixin {
 
   @override
   Future webAuth(Uri url) {
-    return FlutterWebAuth.authenticate(
+    return FlutterWebAuth2.authenticate(
       url: url.toString(),
       callbackUrlScheme: "appwrite-callback-" + config['project']!,
     ).then((value) async {

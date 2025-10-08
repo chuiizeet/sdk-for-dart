@@ -1,6 +1,6 @@
 import 'dart:html' as html;
 import 'package:flutter/foundation.dart';
-import 'package:flutter_web_auth/flutter_web_auth.dart';
+import 'package:flutter_web_auth_2/flutter_web_auth_2.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/browser_client.dart';
 import 'client_mixin.dart';
@@ -38,7 +38,7 @@ class ClientBrowser extends ClientBase with ClientMixin {
     _headers = {
       'content-type': 'application/json',
       'x-sdk-version': 'appwrite:flutter:5.0.0',
-      'X-Appwrite-Response-Format' : '0.14.0',
+      'X-Appwrite-Response-Format': '0.14.0',
     };
 
     config = {};
@@ -51,26 +51,28 @@ class ClientBrowser extends ClientBase with ClientMixin {
   @override
   String get endPoint => _endPoint;
 
-     /// Your project ID
-    @override
-    ClientBrowser setProject(value) {
-        config['project'] = value;
-        addHeader('X-Appwrite-Project', value);
-        return this;
-    }
-     /// Your secret JSON Web Token
-    @override
-    ClientBrowser setJWT(value) {
-        config['jWT'] = value;
-        addHeader('X-Appwrite-JWT', value);
-        return this;
-    }
-    @override
-    ClientBrowser setLocale(value) {
-        config['locale'] = value;
-        addHeader('X-Appwrite-Locale', value);
-        return this;
-    }
+  /// Your project ID
+  @override
+  ClientBrowser setProject(value) {
+    config['project'] = value;
+    addHeader('X-Appwrite-Project', value);
+    return this;
+  }
+
+  /// Your secret JSON Web Token
+  @override
+  ClientBrowser setJWT(value) {
+    config['jWT'] = value;
+    addHeader('X-Appwrite-JWT', value);
+    return this;
+  }
+
+  @override
+  ClientBrowser setLocale(value) {
+    config['locale'] = value;
+    addHeader('X-Appwrite-Locale', value);
+    return this;
+  }
 
   @override
   ClientBrowser setSelfSigned({bool status = true}) {
@@ -146,7 +148,7 @@ class ClientBrowser extends ClientBase with ClientMixin {
 
   @override
   Future webAuth(Uri url) {
-  return FlutterWebAuth.authenticate(
+    return FlutterWebAuth2.authenticate(
       url: url.toString(),
       callbackUrlScheme: "appwrite-callback-" + config['project']!,
     );
